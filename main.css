@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: salmon;
+}
+
+.container {
+  width: 300px;
+  height: 515px;
+  margin: 10% auto;
+  border: 1px solid whitesmoke;
+  background: rgb(226, 224, 224);
+  border-radius: 10px;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  background: white;
+}
+
+header nav ul {
+  padding: 20px 20px 0px 20px;
+  font-size: 17px;
+}
+
+.banner {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background: white;
+}
+
+img {
+  width: 200px;
+}
+
+.expenses-container {
+  text-align: center;
+}
+
+.expenses-container .expenses-heading {
+  background: white;
+  padding-bottom: 20px;
+}
+.expenses-container .expenses-heading h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.expenses {
+  padding: 10px;
+  height: 100%;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+}
+
+.expenses ul {
+  font-size: 20px;
+}
+.expenses-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  padding: 5px;
+  font-weight: lighter;
+}
+
+.expenses-info:hover p,
+.expenses-info:hover span {
+  transform: scale(1.2);
+  cursor: pointer;
+}
