@@ -8,7 +8,7 @@ I want to build 30 Projects in 30 Days as a challenge.
 
 ## Showcase
 
-![app](images/landing.png)
+![app](screenshots/landing.png)
 
 ## Built With
 
